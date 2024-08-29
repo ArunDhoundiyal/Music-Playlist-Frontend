@@ -1,0 +1,143 @@
+.bg-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  background-size: cover;
+  background-color: #152850;
+}
+.bg-img-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png ');
+  height: 50vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.name-heading-container {
+  margin: 50px;
+}
+.singer-name-heading {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.singer-txt {
+  font-size: 30px;
+  color: #ffffff;
+}
+.music-playlist-container {
+  height: 50vh;
+}
+.search-songs-playlist-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+.songs-playlist-heading {
+  color: #ffffff;
+  font-weight: 400;
+  margin-left: 50px;
+}
+
+.style-input {
+  background-color: transparent;
+  border: solid 1px #ffffff;
+  height: 50px;
+  width: 40%;
+  font-size: 25px;
+  padding-left: 20px;
+  color: #ffffff;
+  border-radius: 4px;
+  outline: none;
+  margin-right: 50px;
+}
+
+.play-list-container {
+  overflow: auto;
+  height: 40vh;
+  list-style-type: none;
+}
+.no-songs-found-container {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-songs-found {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 650px) {
+  .style-input {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .style-input {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+  }
+  .songs-playlist-heading {
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 50px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .style-input {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+  }
+  .songs-playlist-heading {
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 50px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .style-input {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    margin-right: 20px;
+  }
+  .songs-playlist-heading {
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 20px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 346px) {
+  .style-input {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    margin-right: 20px;
+  }
+  .songs-playlist-heading {
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 20px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 357px) {
+  .singer-name-heading {
+    font-size: 30px;
+  }
+  .singer-txt {
+    font-size: 20px;
+  }
+}

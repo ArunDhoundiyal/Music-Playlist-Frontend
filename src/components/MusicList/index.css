@@ -1,0 +1,112 @@
+.list-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+}
+.img-card-container {
+  display: flex;
+}
+.songs-img {
+  height: 150px;
+}
+.name-genre-container {
+  margin-left: 20px;
+}
+.name {
+  color: #ffffff;
+  font-size: 25px;
+}
+.genre {
+  color: #3b82f6;
+  font-size: 25px;
+}
+.delete-button-duration-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.duration {
+  font-size: 25px;
+  color: #ffffff;
+  margin-right: 50px;
+}
+.button {
+  background-color: transparent;
+}
+.delete-button {
+  background-color: transparent;
+  border: solid 0px;
+}
+
+.delete-icon {
+  height: 30px;
+}
+
+@media screen and (max-width: 650px) {
+  .songs-img {
+    height: 100px;
+  }
+  .name {
+    font-size: 15px;
+  }
+  .genre {
+    font-size: 15px;
+  }
+  .duration {
+    font-size: 15px;
+  }
+  .delete-icon {
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .songs-img {
+    height: 100px;
+  }
+  .name {
+    font-size: 15px;
+  }
+  .genre {
+    font-size: 15px;
+  }
+  .duration {
+    font-size: 15px;
+    margin-right: 10px;
+  }
+  .delete-icon {
+    height: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .songs-img {
+    height: 80px;
+  }
+  .name {
+    font-size: 12px;
+  }
+  .genre {
+    font-size: 12px;
+  }
+  .duration {
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  .delete-icon {
+    height: 15px;
+  }
+  .list-item-container {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 346px) {
+  .songs-img {
+    height: 60px;
+  }
+  .list-item-container {
+    margin: 5px;
+  }
+}
